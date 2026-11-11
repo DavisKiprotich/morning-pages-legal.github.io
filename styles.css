@@ -328,6 +328,10 @@ ol {
   border-top: 1px solid var(--line);
 }
 
+#store-title {
+  scroll-margin-top: 7rem;
+}
+
 .store-copy {
   max-width: 55ch;
   color: var(--ink-muted);
@@ -344,8 +348,12 @@ ol {
   gap: 0.65rem;
 }
 
-.store-pending {
-  color: var(--ink-muted);
+.store-coming-soon,
+.store-coming-soon:hover {
+  color: var(--paper);
+  background: var(--terracotta);
+  opacity: 0.68;
+  cursor: not-allowed;
 }
 
 .card {
